@@ -21,7 +21,7 @@ const regex03 = /([a-z-A-Z-0-9]+(.[a-z]+))+\@((gmail|hotmail|icloud)|([a-z-A-Z]+
 //4: find all words that start with a capital letter
 const regex04 = /[A-Z]{1}[a-z]+/; 
 
-//5: match strings with any one of these characters: ; [, ], {, }, ^ 
+//5: match strings with any one of these characters: ; [, ], {, }, ^
 const regex05 = /([a-z-A-Z-0-9]*)(\;*\[*\]*\{*\}*\^*)+([a-z-A-Z]*)/;
 
 //6: match dates in the format DD/MM/YYYY X
